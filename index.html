@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio website for sskoduri - Software Engineer, Data & AI enthusiast." />
+  <meta name="author" content="sskoduri" />
+  <title>sskoduri | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#home">sskoduri</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">GitHub Portfolio · Developer Profile</p>
+        <h1>Hi, I’m <span>sskoduri</span></h1>
+        <p class="hero-subtitle">
+          Software Engineer focused on building reliable applications, data-driven systems,
+          cloud solutions, and AI-powered products.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="https://github.com/sskoduri" target="_blank" rel="noopener">View GitHub</a>
+          <a class="btn secondary" href="#projects">Explore Projects</a>
+        </div>
+        <div class="stats">
+          <div><strong>Clean Code</strong><small>Maintainable solutions</small></div>
+          <div><strong>Cloud Ready</strong><small>Scalable architecture</small></div>
+          <div><strong>AI Focused</strong><small>Modern engineering</small></div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="profile-circle">SK</div>
+        <h2>sskoduri</h2>
+        <p>Developer · Problem Solver · Builder</p>
+        <div class="code-card">
+<pre><code>const profile = {
+  role: "Software Engineer",
+  focus: ["Data", "Cloud", "AI"],
+  mindset: "Build. Learn. Improve."
+};</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section narrow">
+      <p class="section-label">About</p>
+      <h2>Building practical technology with strong engineering fundamentals.</h2>
+      <p>
+        I enjoy designing solutions that are simple, scalable, and useful. My work focuses on
+        software development, data engineering, cloud platforms, automation, and AI-enabled
+        applications. I believe great engineering is not only about writing code, but also about
+        understanding business problems, designing clean architecture, and delivering reliable systems.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="section-label">Skills</p>
+      <h2>Technical Focus Areas</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><h3>Programming</h3><p>Python, JavaScript, SQL, Java, REST APIs, backend development, and clean coding practices.</p></div>
+        <div class="skill-card"><h3>Data & Analytics</h3><p>Data pipelines, ETL, dashboards, reporting, data modeling, automation, and insights.</p></div>
+        <div class="skill-card"><h3>Cloud & DevOps</h3><p>AWS, Azure, GitHub Actions, CI/CD, deployment automation, containers, and monitoring.</p></div>
+        <div class="skill-card"><h3>AI & Automation</h3><p>AI tools, LLM-powered workflows, prompt engineering, intelligent automation, and productivity systems.</p></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="section-label">Projects</p>
+      <h2>Featured Work</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-tag">Portfolio</div>
+          <h3>Personal GitHub Portfolio</h3>
+          <p>A responsive portfolio site built for GitHub Pages to showcase skills, projects, experience, and developer identity.</p>
+          <a href="https://github.com/sskoduri" target="_blank" rel="noopener">View GitHub →</a>
+        </article>
+        <article class="project-card">
+          <div class="project-tag">Data</div>
+          <h3>Data Pipeline Project</h3>
+          <p>Replace this with a real GitHub repository that demonstrates ETL, SQL, Python, data quality checks, or analytics automation.</p>
+          <a href="https://github.com/sskoduri?tab=repositories" target="_blank" rel="noopener">Repositories →</a>
+        </article>
+        <article class="project-card">
+          <div class="project-tag">AI</div>
+          <h3>AI Automation Project</h3>
+          <p>Add an AI or automation project here, such as a chatbot, document analyzer, workflow automation, or LLM-powered application.</p>
+          <a href="https://github.com/sskoduri?tab=repositories" target="_blank" rel="noopener">Repositories →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <p class="section-label">Experience</p>
+      <h2>Professional Highlights</h2>
+      <div class="timeline">
+        <div class="timeline-item"><span>01</span><div><h3>Software Engineering</h3><p>Building maintainable applications with strong design, testing, and deployment practices.</p></div></div>
+        <div class="timeline-item"><span>02</span><div><h3>Data-Driven Systems</h3><p>Working with structured data, SQL, reporting, pipelines, and business-ready insights.</p></div></div>
+        <div class="timeline-item"><span>03</span><div><h3>Cloud and Automation</h3><p>Deploying scalable solutions and automating repetitive engineering workflows.</p></div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="section-label">Contact</p>
+      <h2>Let’s connect and build something useful.</h2>
+      <p>Explore my work on GitHub or connect with me for software, data, cloud, and AI projects.</p>
+      <div class="hero-actions center">
+        <a class="btn primary" href="https://github.com/sskoduri" target="_blank" rel="noopener">GitHub Profile</a>
+        <a class="btn secondary" href="mailto:your-email@example.com">Email Me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> sskoduri. Built with HTML, CSS, and JavaScript. Hosted on GitHub Pages.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
