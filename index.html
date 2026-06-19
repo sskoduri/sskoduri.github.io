@@ -3,134 +3,305 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio website for sskoduri - Software Engineer, Data & AI enthusiast." />
-  <meta name="author" content="sskoduri" />
-  <title>sskoduri | Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <meta name="description" content="Sudhakar Koduri - Senior Cloud Data Platform Engineer, AWS Big Data Engineer, AI/ML Infrastructure Engineer." />
+  <meta name="keywords" content="Sudhakar Koduri, AWS, EMR, S3, Hadoop, Cloudera, Hortonworks, Spark, Kafka, Hive, HDFS, YARN, Linux, Terraform, AI ML Infrastructure" />
+  <meta name="author" content="Sudhakar Koduri" />
+  <meta property="og:title" content="Sudhakar Koduri | Cloud Data Platform Engineer" />
+  <meta property="og:description" content="AWS Big Data, Hadoop, Cloudera, EMR, S3, Kafka, Hive, Spark, Linux, Terraform, AI/ML Infrastructure." />
+  <meta property="og:type" content="website" />
+  <title>Sudhakar Koduri | Cloud Data Platform Engineer</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <header class="site-header">
     <nav class="nav">
-      <a class="brand" href="#home">sskoduri</a>
-      <div class="nav-links">
+      <a class="brand" href="#home">Sudhakar Koduri</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+      <div class="nav-links" id="navLinks">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
         <a href="#contact">Contact</a>
       </div>
-      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
     </nav>
   </header>
 
   <main>
     <section id="home" class="hero section">
-      <div class="hero-content">
-        <p class="eyebrow">GitHub Portfolio · Developer Profile</p>
-        <h1>Hi, I’m <span>sskoduri</span></h1>
+      <div class="hero-left">
+        <p class="eyebrow">AWS Big Data · Hadoop · AI/ML Infrastructure</p>
+        <h1>Senior Cloud Data Platform Engineer</h1>
         <p class="hero-subtitle">
-          Software Engineer focused on building reliable applications, data-driven systems,
-          cloud solutions, and AI-powered products.
+          12+ years of experience building, securing, operating, and modernizing large-scale
+          data platforms across AWS, EMR, S3, Cloudera, Hadoop, Kafka, Hive, Spark, Linux,
+          and enterprise AI-ready infrastructure.
         </p>
+
         <div class="hero-actions">
-          <a class="btn primary" href="https://github.com/sskoduri" target="_blank" rel="noopener">View GitHub</a>
-          <a class="btn secondary" href="#projects">Explore Projects</a>
+          <a class="btn primary" href="assets/resume/Sudhakar_Koduri_Resume.docx" download>Download Resume</a>
+          <a class="btn secondary" href="https://github.com/sskoduri" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/sudhakark11" target="_blank" rel="noopener">LinkedIn</a>
         </div>
-        <div class="stats">
-          <div><strong>Clean Code</strong><small>Maintainable solutions</small></div>
-          <div><strong>Cloud Ready</strong><small>Scalable architecture</small></div>
-          <div><strong>AI Focused</strong><small>Modern engineering</small></div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span>12+</span>
+            <p>Years IT Experience</p>
+          </div>
+          <div class="stat-card">
+            <span>7+</span>
+            <p>Years at Ally</p>
+          </div>
+          <div class="stat-card">
+            <span>AWS</span>
+            <p>EMR · S3 · EC2 · IAM</p>
+          </div>
+          <div class="stat-card">
+            <span>Big Data</span>
+            <p>Hadoop · Hive · Kafka</p>
+          </div>
         </div>
       </div>
 
-      <div class="hero-card">
-        <div class="profile-circle">SK</div>
-        <h2>sskoduri</h2>
-        <p>Developer · Problem Solver · Builder</p>
-        <div class="code-card">
-<pre><code>const profile = {
-  role: "Software Engineer",
-  focus: ["Data", "Cloud", "AI"],
-  mindset: "Build. Learn. Improve."
-};</code></pre>
+      <aside class="hero-card">
+        <div class="avatar">SK</div>
+        <h2>Sudhakar Koduri</h2>
+        <p>Atlanta Metropolitan Area</p>
+        <div class="terminal-card">
+<pre><code>profile:
+  role: Cloud Data Platform Engineer
+  cloud: AWS, EMR, S3, EC2, IAM
+  platforms: Hadoop, Cloudera, Hortonworks
+  focus: AI-ready data infrastructure</code></pre>
         </div>
-      </div>
+      </aside>
     </section>
 
-    <section id="about" class="section narrow">
-      <p class="section-label">About</p>
-      <h2>Building practical technology with strong engineering fundamentals.</h2>
-      <p>
-        I enjoy designing solutions that are simple, scalable, and useful. My work focuses on
-        software development, data engineering, cloud platforms, automation, and AI-enabled
-        applications. I believe great engineering is not only about writing code, but also about
-        understanding business problems, designing clean architecture, and delivering reliable systems.
-      </p>
+    <section id="about" class="section split-section">
+      <div>
+        <p class="section-label">About</p>
+        <h2>Building secure, reliable, AI-ready enterprise data platforms.</h2>
+      </div>
+      <div class="section-text">
+        <p>
+          I specialize in cloud data platform engineering, big data operations, Hadoop ecosystem
+          administration, platform modernization, production reliability, data security, migration,
+          automation, and performance tuning.
+        </p>
+        <p>
+          My background includes hands-on engineering across HDFS, YARN, Hive, HBase, Kafka,
+          Sqoop, Flume, Oozie, Impala, Zookeeper, NiFi, Ranger, Knox, Sentry, Kerberos, LDAP,
+          Ambari, Cloudera Manager, Linux, Shell scripting, Python, SQL, and AWS services.
+        </p>
+      </div>
     </section>
 
     <section id="skills" class="section">
-      <p class="section-label">Skills</p>
-      <h2>Technical Focus Areas</h2>
+      <p class="section-label">Core Skills</p>
+      <h2>Technical Expertise</h2>
+
       <div class="skills-grid">
-        <div class="skill-card"><h3>Programming</h3><p>Python, JavaScript, SQL, Java, REST APIs, backend development, and clean coding practices.</p></div>
-        <div class="skill-card"><h3>Data & Analytics</h3><p>Data pipelines, ETL, dashboards, reporting, data modeling, automation, and insights.</p></div>
-        <div class="skill-card"><h3>Cloud & DevOps</h3><p>AWS, Azure, GitHub Actions, CI/CD, deployment automation, containers, and monitoring.</p></div>
-        <div class="skill-card"><h3>AI & Automation</h3><p>AI tools, LLM-powered workflows, prompt engineering, intelligent automation, and productivity systems.</p></div>
+        <article class="skill-card">
+          <h3>Cloud Data Platforms</h3>
+          <p>AWS, EMR, S3, EC2, IAM, Lambda, VPC, Route 53, Security Groups, CloudFormation, cloud modernization.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Big Data Engineering</h3>
+          <p>Hadoop, HDFS, YARN, Hive, HBase, Kafka, Sqoop, Flume, Oozie, Impala, Spark, Zookeeper, NiFi.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Platform Security</h3>
+          <p>Kerberos, Ranger, Knox, Sentry, LDAP, TLS/SSL, access controls, data encryption, HIPAA-aware environments.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Reliability & Operations</h3>
+          <p>Production support, monitoring, incident management, capacity planning, cluster upgrades, performance tuning.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Automation</h3>
+          <p>Shell scripting, Python, Puppet, Bitbucket, Bamboo, EMR automation, service deployment automation.</p>
+        </article>
+        <article class="skill-card">
+          <h3>Data Migration</h3>
+          <p>On-prem Cloudera to AWS S3 migration, DISTCP, RDBMS to HDFS with Sqoop, streaming ingest with Flume/Kafka.</p>
+        </article>
       </div>
     </section>
 
-    <section id="projects" class="section">
-      <p class="section-label">Projects</p>
-      <h2>Featured Work</h2>
-      <div class="projects-grid">
-        <article class="project-card">
-          <div class="project-tag">Portfolio</div>
-          <h3>Personal GitHub Portfolio</h3>
-          <p>A responsive portfolio site built for GitHub Pages to showcase skills, projects, experience, and developer identity.</p>
-          <a href="https://github.com/sskoduri" target="_blank" rel="noopener">View GitHub →</a>
-        </article>
-        <article class="project-card">
-          <div class="project-tag">Data</div>
-          <h3>Data Pipeline Project</h3>
-          <p>Replace this with a real GitHub repository that demonstrates ETL, SQL, Python, data quality checks, or analytics automation.</p>
-          <a href="https://github.com/sskoduri?tab=repositories" target="_blank" rel="noopener">Repositories →</a>
-        </article>
-        <article class="project-card">
-          <div class="project-tag">AI</div>
-          <h3>AI Automation Project</h3>
-          <p>Add an AI or automation project here, such as a chatbot, document analyzer, workflow automation, or LLM-powered application.</p>
-          <a href="https://github.com/sskoduri?tab=repositories" target="_blank" rel="noopener">Repositories →</a>
-        </article>
+    <section class="section impact">
+      <p class="section-label">Impact Areas</p>
+      <h2>What I Help Organizations Improve</h2>
+      <div class="impact-grid">
+        <div>
+          <h3>Platform Reliability</h3>
+          <p>Cluster health checks, service validation, log troubleshooting, job-failure analysis, and on-call production support.</p>
+        </div>
+        <div>
+          <h3>Cloud Modernization</h3>
+          <p>Modernizing Hadoop and Cloudera environments into AWS-aligned, scalable, AI-ready data platforms.</p>
+        </div>
+        <div>
+          <h3>Security & Governance</h3>
+          <p>Kerberos, Ranger/Sentry authorization, TLS/SSL, LDAP integration, and secure handling of regulated data.</p>
+        </div>
+        <div>
+          <h3>AI/ML Readiness</h3>
+          <p>Strengthening storage, distributed compute, metadata, monitoring, and access controls for analytics and AI workloads.</p>
+        </div>
       </div>
     </section>
 
     <section id="experience" class="section">
       <p class="section-label">Experience</p>
-      <h2>Professional Highlights</h2>
+      <h2>Professional Experience</h2>
+
       <div class="timeline">
-        <div class="timeline-item"><span>01</span><div><h3>Software Engineering</h3><p>Building maintainable applications with strong design, testing, and deployment practices.</p></div></div>
-        <div class="timeline-item"><span>02</span><div><h3>Data-Driven Systems</h3><p>Working with structured data, SQL, reporting, pipelines, and business-ready insights.</p></div></div>
-        <div class="timeline-item"><span>03</span><div><h3>Cloud and Automation</h3><p>Deploying scalable solutions and automating repetitive engineering workflows.</p></div></div>
+        <article class="timeline-item">
+          <div class="timeline-date">Jul 2025 - Present</div>
+          <div class="timeline-content">
+            <h3>Principal AI Cloud Engineer · Ally</h3>
+            <p class="location">Charlotte, NC</p>
+            <ul>
+              <li>Lead cloud data platform engineering and AI-ready infrastructure initiatives for enterprise banking technology.</li>
+              <li>Modernize AWS, EMR, S3, EC2, IAM, Cloudera, Hadoop, HDFS, YARN, Hive, and HBase environments.</li>
+              <li>Improve platform availability, access control, performance, scalability, observability, and operational excellence.</li>
+              <li>Support AI/ML infrastructure readiness through secure data access, distributed compute, monitoring, and incident response.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">Jul 2022 - Jun 2025</div>
+          <div class="timeline-content">
+            <h3>Senior AI Cloud Engineer · Ally</h3>
+            <p class="location">Charlotte, NC</p>
+            <ul>
+              <li>Supported enterprise cloud data platform operations across Cloudera Hadoop, HDFS, YARN, Hive, HBase, Sqoop, Oozie, Impala, Sentry, Linux, and AWS-aligned environments.</li>
+              <li>Led production support including Cloudera upgrades, service health checks, node commissioning/decommissioning, NameNode recovery, and capacity planning.</li>
+              <li>Supported secure data operations using Kerberos, Sentry/Ranger-style authorization, Linux access controls, TLS/SSL, and monitoring tools.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">Apr 2019 - Jun 2022</div>
+          <div class="timeline-content">
+            <h3>Cloud Engineer · Ally</h3>
+            <p class="location">Charlotte, NC</p>
+            <ul>
+              <li>Supported Hadoop administration, AWS cloud platform operations, data migration, EMR automation, and large-scale production data workloads.</li>
+              <li>Worked on Cloudera upgrades, HDFS/YARN/Hive operations, platform security, monitoring, performance tuning, and production reliability.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">Jun 2018 - Apr 2019</div>
+          <div class="timeline-content">
+            <h3>Cloud Engineer · Philips Wellcentive</h3>
+            <p class="location">Atlanta Metropolitan Area</p>
+            <ul>
+              <li>Supported Cloudera Hadoop, HDFS, YARN, Hive, HBase, Sqoop, Oozie, Impala, Linux, Kerberos, and healthcare data security environments.</li>
+              <li>Implemented authentication and authorization controls using Kerberos and enterprise security patterns for HIPAA-regulated data workloads.</li>
+              <li>Supported encryption, cluster hardening, service validation, node management, capacity planning, and production troubleshooting.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="section-label">Selected Project Stories</p>
+      <h2>Portfolio Highlights</h2>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <span class="project-tag">AWS Modernization</span>
+          <h3>On-Prem Cloudera to AWS S3 Migration</h3>
+          <p>
+            Supported migration patterns from on-prem Cloudera clusters to AWS S3, improving cloud alignment,
+            scalability, and future readiness for analytics, ML, and AI workloads.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <span class="project-tag">Platform Reliability</span>
+          <h3>Production Hadoop Reliability Engineering</h3>
+          <p>
+            Managed cluster monitoring, capacity planning, node lifecycle operations, NameNode recovery,
+            post-upgrade validation, and incident troubleshooting for large-scale data platforms.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <span class="project-tag">Security</span>
+          <h3>Kerberos, Ranger, Knox & TLS/SSL Security</h3>
+          <p>
+            Implemented enterprise-grade authentication, authorization, data encryption, TLS/SSL patterns,
+            access controls, and security hardening for Hadoop and healthcare-regulated environments.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <span class="project-tag">Automation</span>
+          <h3>EMR and Hadoop Service Automation</h3>
+          <p>
+            Automated Hadoop service deployment and EMR enablement workflows using scripting, Bitbucket,
+            Bamboo, Python, shell scripts, and infrastructure standards.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="certifications" class="section split-section">
+      <div>
+        <p class="section-label">Education & Certifications</p>
+        <h2>Credentials</h2>
+      </div>
+      <div class="credential-list">
+        <div class="credential-card">
+          <h3>AWS Certified Solutions Architect - Associate</h3>
+          <p>Cloud architecture, AWS infrastructure, security, compute, networking, and scalable platform design.</p>
+        </div>
+        <div class="credential-card">
+          <h3>Cloudera Certified Administrator for Apache Hadoop</h3>
+          <p>Hadoop cluster administration, Cloudera operations, security, deployment, and production support.</p>
+        </div>
+        <div class="credential-card">
+          <h3>Master’s Degree · Computer Software Engineering</h3>
+          <p>Stratford University · 2014</p>
+        </div>
+        <div class="credential-card">
+          <h3>Bachelor’s Degree · Computer Science</h3>
+          <p>Kakatiya University · 1997</p>
+        </div>
       </div>
     </section>
 
     <section id="contact" class="section contact">
       <p class="section-label">Contact</p>
-      <h2>Let’s connect and build something useful.</h2>
-      <p>Explore my work on GitHub or connect with me for software, data, cloud, and AI projects.</p>
-      <div class="hero-actions center">
-        <a class="btn primary" href="https://github.com/sskoduri" target="_blank" rel="noopener">GitHub Profile</a>
-        <a class="btn secondary" href="mailto:your-email@example.com">Email Me</a>
+      <h2>Let’s connect</h2>
+      <p>
+        Open to senior cloud data platform, AWS data engineering, big data platform engineering,
+        AI/ML infrastructure, MLOps platform, and production data platform engineering roles.
+      </p>
+
+      <div class="contact-grid">
+        <a href="mailto:sdk.hadoop@gmail.com">sdk.hadoop@gmail.com</a>
+        <a href="tel:+14702223993">(470) 222-3993</a>
+        <a href="https://www.linkedin.com/in/sudhakark11" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/sskoduri" target="_blank" rel="noopener">GitHub</a>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p>© <span id="year"></span> sskoduri. Built with HTML, CSS, and JavaScript. Hosted on GitHub Pages.</p>
+    <p>© <span id="year"></span> Sudhakar Koduri. Built for GitHub Pages.</p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>

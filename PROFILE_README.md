@@ -1,31 +1,32 @@
-# Hi, I'm sskoduri 👋
+# Hi, I'm Sudhakar Koduri 👋
 
-Software Engineer focused on building reliable applications, data-driven systems, cloud solutions, and AI-powered products.
+Senior Cloud Data Platform Engineer | AWS Big Data Engineer | AI/ML Infrastructure Engineer
 
-## 🚀 What I Work On
+I have 12+ years of experience building, securing, operating, and modernizing large-scale data platforms across AWS, EMR, S3, Cloudera, Hadoop, Kafka, Hive, Spark, Linux, and enterprise AI-ready infrastructure.
 
-- Software development
-- Data engineering and analytics
-- Cloud and DevOps
-- AI-powered automation
-- Scalable product development
+## 🔧 Core Skills
 
-## 🛠️ Tech Stack
+- AWS: EMR, S3, EC2, IAM, Lambda, VPC, Route 53, CloudFormation
+- Big Data: Hadoop, HDFS, YARN, Hive, HBase, Kafka, Sqoop, Flume, Oozie, Impala, Spark
+- Security: Kerberos, Ranger, Knox, Sentry, LDAP, TLS/SSL, data encryption
+- Operations: production support, monitoring, capacity planning, incident management, cluster upgrades
+- Automation: Shell scripting, Python, Puppet, Bitbucket, Bamboo
 
-**Languages:** Python, JavaScript, SQL, Java  
-**Data:** ETL, data pipelines, dashboards, reporting, data modeling  
-**Cloud:** AWS, Azure, GitHub Actions, CI/CD  
-**AI:** LLM workflows, prompt engineering, automation tools  
+## 🚀 Focus Areas
 
-## 🌐 Portfolio
+- Cloud data platform engineering
+- AWS big data modernization
+- Hadoop and Cloudera administration
+- AI/ML infrastructure readiness
+- Secure enterprise data operations
+- Data migration and platform reliability
 
-Visit my portfolio website:
+## 📌 Portfolio
 
-```text
-https://sskoduri.github.io
-```
+Website: https://sskoduri.github.io
 
 ## 📫 Connect
 
+- LinkedIn: https://www.linkedin.com/in/sudhakark11
 - GitHub: https://github.com/sskoduri
-- Email: your-email@example.com
+- Email: sdk.hadoop@gmail.com

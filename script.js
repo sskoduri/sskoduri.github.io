@@ -1,15 +1,13 @@
-const themeToggle = document.getElementById("themeToggle");
 const year = document.getElementById("year");
+const menuBtn = document.getElementById("menuBtn");
+const navLinks = document.getElementById("navLinks");
+
 year.textContent = new Date().getFullYear();
-const savedTheme = localStorage.getItem("theme");
-if (savedTheme) {
-  document.documentElement.setAttribute("data-theme", savedTheme);
-  themeToggle.textContent = savedTheme === "light" ? "🌞" : "🌙";
-}
-themeToggle.addEventListener("click", () => {
-  const currentTheme = document.documentElement.getAttribute("data-theme");
-  const nextTheme = currentTheme === "light" ? "dark" : "light";
-  document.documentElement.setAttribute("data-theme", nextTheme);
-  localStorage.setItem("theme", nextTheme);
-  themeToggle.textContent = nextTheme === "light" ? "🌞" : "🌙";
+
+menuBtn.addEventListener("click", () => {
+  navLinks.classList.toggle("open");
+});
+
+document.querySelectorAll(".nav-links a").forEach((link) => {
+  link.addEventListener("click", () => navLinks.classList.remove("open"));
 });

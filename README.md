@@ -1,32 +1,37 @@
-# sskoduri GitHub Portfolio Website
+# Sudhakar Koduri Portfolio Website
 
-A modern responsive portfolio website designed for GitHub Pages.
+This is a GitHub Pages-ready portfolio website for Sudhakar Koduri.
 
-## Files
+## Website Focus
 
-- `index.html` - Main website page
-- `styles.css` - Styling and responsive layout
-- `script.js` - Dark/light mode toggle
-- `PROFILE_README.md` - Optional GitHub profile README content
+- Senior Cloud Data Platform Engineer
+- AWS Big Data Engineer
+- AI/ML Infrastructure Engineer
+- Hadoop / Cloudera / Hortonworks Administration
+- EMR, S3, EC2, IAM, Kafka, Hive, Spark, Linux, Terraform
+- Platform security, data migration, production support, and cloud modernization
 
-## How to Deploy on GitHub Pages
-
-### User GitHub Pages Website
-
-1. Create a new GitHub repository named:
-
-```text
-sskoduri.github.io
-```
-
-2. Upload these files to the repository:
+## Files Included
 
 ```text
 index.html
 styles.css
 script.js
+assets/resume/Sudhakar_Koduri_Profile.pdf
+assets/resume/Sudhakar_Koduri_Resume.docx
+PROFILE_README.md
 README.md
 ```
+
+## How to Deploy to GitHub Pages
+
+1. Create a public GitHub repository named:
+
+```text
+sskoduri.github.io
+```
+
+2. Upload all extracted files directly into the root of the repository.
 
 3. Go to:
 
@@ -42,19 +47,14 @@ Branch: main
 Folder: /root
 ```
 
-5. Your website will be live at:
+5. Save.
+
+6. Website URL:
 
 ```text
 https://sskoduri.github.io
 ```
 
-## Customize
+## Important
 
-Replace:
-
-- `your-email@example.com`
-- About section text
-- Skills
-- Projects
-- Experience
-- LinkedIn URL if needed
+Upload the extracted files, not the ZIP file itself. The repository root must contain `index.html` directly.
